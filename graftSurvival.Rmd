@@ -27,6 +27,8 @@ In the event of graft failure, graft survival time is measured from the date of 
 
 # Summaries of One-Year Graft Survival
 
+Editing on GitHub in the Summary Section.
+
 Of the `r nrow(dat)` kidneys transplanted, there were `r n.graftFailures` kidney graft failures within 1-year, `r n.graftFunctioning` still functioning, and `r n.graftUnknown` within unknown 1-year status. Those functioning and unknown are considerd "alive" for the survival analysis.  The proportion of grafts surviving at one year from each treatment group are presented in the following table.
 
  <!-- along with the corresponding two-sided 95% confidence intervals  -->
