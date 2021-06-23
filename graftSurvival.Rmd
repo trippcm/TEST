@@ -49,6 +49,8 @@ fail_tab_print %>%
 
 I am editing the text in this section on GitHub to see if it works!
 
+Now I am editing the text on RStudio, and will also add more on Github at the same time to see what happens.
+
 Graft survival at 1 year was estimated by the Kaplan-Meier method, a non-parametric approach to estimate survival times and probabilities that results in a step function, where there is a step down each time a failure occurs. To compare survival between groups we can use the log rank test. The null hypothesis is that there is no difference in survival between the treatment groups or that there is no difference between the treatment groups in the probability of graft failure at any point. The log rank test is a non-parametric test and makes no assumptions about the survival distributions. In essence, the log rank test compares the observed number of graft failures in each treatment group to what would be expected if the null hypothesis were true (i.e., if the survival curves were identical). The log rank statistic is approximately distributed as a chi-square test statistic. The sums of the observed and expected numbers of events are computed for each event time and summed for each comparison group. The log rank statistic has degrees of freedom equal to k-1, where k represents the number of comparison groups. In this case, k=3 randomized kidney-level groups, so the test statistic has 2 degrees of freedom.
 
 The log rank test Chi-square statistic is `r logRankTestChiSqStat` with 2 degrees of freedom. The p-value is `r logRankTestpval`. There is not a statistically significant difference in survival curves between the treatment groups.
